@@ -1,0 +1,34 @@
+{
+    "name": "ashik/adn-sms",
+    "description": "Laravel Adn SMS Services",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ashik\\AdnSms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ashik Ahmed",
+            "email": "md.ashikahmed@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "require": {
+        "php": "^7.1|^8.0",
+        "guzzlehttp/guzzle": "*"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ashik\\AdnSms\\AdnServiceProvider"
+            ],
+            "aliases": {
+                "AdnSms": "Ashik\\AdnSms\\Facades\\AdnSms"
+            }
+        }
+    }
+}
