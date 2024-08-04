@@ -18,10 +18,11 @@
     "prefer-stable": true,
 
     "require": {
-        "php": "^7.1|^8.0",
-        "guzzlehttp/guzzle": "*"
+        "php": "^7.1|^8.0"
     },
-
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
     "extra": {
         "laravel": {
             "providers": [
